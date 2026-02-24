@@ -1,84 +1,88 @@
-# Appsy 🌐
+# 📝 To-Do List Web App
 
-**Appsy** is a modern and interactive web application that acts as a centralized hub for accessing your favorite apps quickly and efficiently. It features a clean UI, responsive design, and a visually engaging experience with a dynamic magic cursor effect.
-
-🔗 Live Demo: https://dadapeer-source.github.io/Social-Hub/
-
----
-
-## 🚀 Features
-
-- 🔍 **Live Search**  
-  Instantly filter apps using the search bar.
-
-- 💻 **Responsive Design**  
-  Works smoothly across mobile, tablet, and desktop.
-
-- 🎨 **Modern UI**  
-  Clean card-based layout with hover animations.
-
-- ✨ **Magic Cursor Effect**  
-  Interactive particle-based cursor for enhanced user experience.
-
-- ⚡ **Fast Access**  
-  One-click access to popular platforms.
-
-- 🛠 **Easy Customization**  
-  Add or remove apps by editing simple HTML.
+A clean and interactive To-Do List application built using **HTML, CSS, and JavaScript**.  
+This app helps users manage daily tasks efficiently with persistent storage using browser localStorage.
 
 ---
 
-## 📱 Apps Included
-
-- Instagram  
-- Facebook  
-- Twitter (X)  
-- LinkedIn  
-- YouTube  
-- Netflix  
-- Canva  
-- Gmail  
-- Chrome  
-- Snapchat  
-- Disney+ Hotstar  
-- TikTok  
-- Amazon  
-- Flipkart  
-- Meesho  
-- PayPal  
-- PhonePe  
-- CapCut  
-- ChatGPT  
-- Gemini  
-- Perplexity  
+## 🚀 Live Demo
+👉 https://dadapeer-source.github.io/HexSoftawares_To-do-App/
 
 ---
 
-## 🎯 What's New
-
-- ❌ Removed: WhatsApp, Zomato, Swiggy  
-- ✨ Added: Magic Cursor Particle Effect  
-- ⚡ Improved visual interaction  
+## 📸 Preview
+![App Screenshot](screenshot.png)
 
 ---
 
-## 📷 Preview
+## ✨ Features
 
-![Appsy Preview](https://via.placeholder.com/800x400.png?text=Appsy+Preview)
-
----
-
-## 🛠 Built With
-
-- **HTML5 & CSS3** – Layout and styling  
-- **JavaScript** – Search functionality & cursor effects  
-- **Font Awesome** – Icons  
-- **GitHub Pages** – Deployment  
+- ➕ Add new tasks  
+- ❌ Delete tasks  
+- ✔️ Mark tasks as completed  
+- 💾 Save tasks using localStorage  
+- 🔄 Data persists after page refresh  
+- ⌨️ Add tasks using Enter key  
+- 🎨 Modern UI with glassmorphism design  
 
 ---
 
-## 📦 Installation
+## 🛠️ Tech Stack
 
-```bash
-git clone https://github.com/Dadapeer-source/Social-Hub.git
-cd new
+- HTML5  
+- CSS3 (Flexbox + Modern UI Design)  
+- JavaScript (DOM Manipulation & localStorage)  
+
+---
+
+## 📂 Project Structure
+To-do-App/
+│
+├── index.html
+├── style.css
+└── script.js
+
+
+---
+
+## ⚙️ How It Works
+
+1. User enters a task  
+2. Task is dynamically added to the DOM  
+3. Each task includes:
+   - Checkbox (mark complete)
+   - Delete button  
+4. Tasks are stored in **localStorage**  
+5. On page reload, tasks are automatically restored  
+
+---
+
+## 📌 Learning Outcomes
+
+- DOM manipulation using JavaScript  
+- Event handling (click, change, keypress)  
+- Working with localStorage  
+- Dynamic UI updates  
+- Structuring frontend projects  
+
+---
+
+## 📈 Future Improvements
+
+- Edit task feature  
+- Task filtering (Completed / Pending)  
+- Drag & drop tasks  
+- Backend integration  
+
+---
+
+## 👨‍💻 Author
+
+**Dadapeer**  
+GitHub: https://github.com/Dadapeer-source  
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
