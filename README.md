@@ -11,10 +11,10 @@ This app helps users manage daily tasks efficiently with persistent storage usin
 ---
 
 ## 📸 Preview
-![]([screenshot.png](https://github.com/Dadapeer-source/HexSoftwares_To-do-App/blob/main/images/img.png))
+![App Screenshot]([screenshot.png](https://github.com/Dadapeer-source/HexSoftwares_To-do-App/blob/main/images/img.png))
 =======
-![App Screenshot](images/screenshot.png)
->>>>>>> 9f28a8c (second commit)
+![App Screenshot](images/img.png)
+
 
 ---
 
