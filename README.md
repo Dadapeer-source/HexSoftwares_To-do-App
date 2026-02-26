@@ -6,7 +6,7 @@ This app helps users manage daily tasks efficiently with persistent storage usin
 ---
 
 ## 🚀 Live Demo
-👉 https://dadapeer-source.github.io/HexSoftawares_To-do-App/
+👉  https://dadapeer-source.github.io/HexSoftwares_To-do-App/
 
 ---
 
