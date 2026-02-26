@@ -59,18 +59,49 @@ button:hover {
 li {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 8px; /* tight spacing between checkbox & text */
     margin: 10px 0;
-    padding: 10px;
+    padding: 12px 10px 12px 6px; /* 🔥 reduced left padding */
     border-radius: 8px;
     background: rgba(255,255,255,0.1);
+    transition: 0.2s;
 }
 
-/* spacing */
+/* hover effect */
+li:hover {
+    background: rgba(255,255,255,0.18);
+}
+
+/* checkbox */
+li input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* task text */
 .task-text {
-    margin-left: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
+/* completed task */
+.task-text[style*="line-through"] {
+    opacity: 0.6;
+}
+
+/* delete button */
 .delete-btn {
-    margin-left: 10px;
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    color: #ff4d4d;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.delete-btn:hover {
+    transform: scale(1.2);
 }
